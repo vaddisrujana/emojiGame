@@ -23,3 +23,36 @@
 .nav-background3 {
   display: none;
 }
+@media screen and (max-width: 767px) {
+  .nav-background {
+    background-color: #ffffff30;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+  .nav-background1 {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  .score3 {
+    margin-left: 10px;
+  }
+  .nav-background2 {
+    display: flex;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .nav-background3 {
+    display: none;
+  }
+  .logoImage {
+    height: 7vh;
+  }
+  .game {
+    font-size: 15px;
+  }
+}

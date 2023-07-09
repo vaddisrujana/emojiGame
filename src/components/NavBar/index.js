@@ -10,8 +10,9 @@ const NavBar = props => {
         <img
           src="https://assets.ccbp.in/frontend/react-js/game-logo-img.png"
           alt="emoji logo"
+          className="logoImage"
         />
-        <h1>Emoji Game</h1>
+        <h1 className="game">Emoji Game</h1>
       </div>
       <div className={score}>
         <p>Score: {newScore}</p>

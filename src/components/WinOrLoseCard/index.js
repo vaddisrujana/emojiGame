@@ -24,7 +24,7 @@ const WinOrLoseCard = props => {
           </button>
         </div>
       </div>
-      <img src={image} alt="win or lose" />
+      <img src={image} className="small-image" alt="win or lose" />
     </div>
   )
 }

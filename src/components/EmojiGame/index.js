@@ -30,7 +30,7 @@ class EmojiGame extends Component {
 
   onclickEmoji = id => {
     const {emojisList} = this.props
-    const {list1} = this.state
+    const {list1, newScore} = this.state
 
     let updateEmojisList = []
 
@@ -39,7 +39,7 @@ class EmojiGame extends Component {
     console.log(list1)
     list1.map(each => {
       if (each === id) {
-        console.log('hi')
+        this.setState(prevState => ({newScore: prevState.newScore - 1}))
         return this.setState({loss: true})
       }
 
@@ -71,7 +71,7 @@ class EmojiGame extends Component {
           <NavBar newScore={newScore} topScore={topScore} loss={loss} />
         </div>
         <div className="emoji-background">
-          {loss ? (
+          {loss || newScore === 12 ? (
             <WinOrLoseCard newScore={newScore} onPlayagain={this.onPlayagain} />
           ) : (
             emojisList.map(each => (

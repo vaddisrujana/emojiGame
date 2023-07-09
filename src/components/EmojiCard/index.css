@@ -9,17 +9,17 @@
 .list {
   list-style-type: none;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   .button {
     background-color: #ffffff30;
     border-color: #ffffff30;
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 15px;
   }
   .list {
     list-style-type: none;
   }
   .emoji-image {
-    height: 5vh;
+    height: 12vh;
   }
 }
