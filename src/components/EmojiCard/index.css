@@ -1,0 +1,25 @@
+.button {
+  background-color: #ffffff30;
+  border-color: #ffffff30;
+  padding: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.list {
+  list-style-type: none;
+}
+@media screen and (max-width: 576px) {
+  .button {
+    background-color: #ffffff30;
+    border-color: #ffffff30;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  .list {
+    list-style-type: none;
+  }
+  .emoji-image {
+    height: 5vh;
+  }
+}

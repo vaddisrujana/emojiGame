@@ -1,0 +1,25 @@
+.nav-background {
+  background-color: #ffffff30;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+.nav-background1 {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.score3 {
+  margin-left: 10px;
+}
+.nav-background2 {
+  display: flex;
+  color: #ffffff;
+  font-weight: bold;
+}
+.nav-background3 {
+  display: none;
+}

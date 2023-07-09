@@ -1,0 +1,27 @@
+.emoji-background {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.background {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  height: 100vh;
+  background-size: cover;
+}
+@media screen and (min-width: 576px) {
+  .emoji-background {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: blue;
+  }
+  .background {
+    background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+    height: 100vh;
+    background-size: cover;
+  }
+}

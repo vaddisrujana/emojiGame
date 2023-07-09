@@ -1,0 +1,36 @@
+.button1 {
+  background-color: #ffce27;
+  border-width: 0;
+  padding: 10px;
+  border-radius: 25px;
+}
+.wl-background {
+  display: flex;
+  background-color: #ffffff30;
+  padding: 10px;
+}
+.wl-background1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wl-background2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.win-or-lose {
+  text-align: center;
+  color: #ffffff;
+}
+.score1 {
+  color: #6a59ff;
+  font-weight: bolder;
+  font-size: 40px;
+}
